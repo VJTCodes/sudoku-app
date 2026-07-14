@@ -10,6 +10,7 @@
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-scripts": "5.0.1",
+    "sudoku-umd": "^1.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

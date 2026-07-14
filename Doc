@@ -1,0 +1,5 @@
+Create a react js application 
+npx create-react-app sudoku-app
+cd sudoku-app
+npm install sudoku-umd
+npm start
