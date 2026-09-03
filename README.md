@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Sudoku App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive web application for playing and solving Sudoku puzzles. Built with React and featuring an intuitive user interface, this application provides an engaging way to enjoy classic Sudoku gameplay.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Sudoku App is a frontend-focused web application that delivers a seamless Sudoku puzzle-solving experience. Whether you're a casual player looking for a fun brain teaser or an enthusiast seeking to sharpen your logic skills, this application offers an accessible and responsive interface to enjoy Sudoku challenges.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎮 **Interactive Gameplay** - Solve Sudoku puzzles with an intuitive interface
+- ⚡ **Real-time Feedback** - Instant validation and error detection
+- 🎯 **Solver Integration** - Built-in Sudoku solving algorithms via sudoku-umd library
+- 📱 **Responsive Design** - Works seamlessly across desktop and mobile devices
+- 🧪 **Well-Tested** - Comprehensive test coverage using React Testing Library
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Frontend Framework**: [React](https://react.dev/) (v19.2.7)
+- **Build Tool**: Create React App with react-scripts
+- **Sudoku Engine**: [sudoku-umd](https://www.npmjs.com/package/sudoku-umd) (v1.0.1)
+- **Testing**: React Testing Library, Jest
+- **Languages**: JavaScript (70%), HTML (16%), CSS (14%)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or higher recommended)
+- npm or yarn package manager
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+```bash
+git clone https://github.com/VJTCodes/sudoku-app.git
+cd sudoku-app
