@@ -35,3 +35,5 @@ Sudoku App is a frontend-focused web application that delivers a seamless Sudoku
 ```bash
 git clone https://github.com/VJTCodes/sudoku-app.git
 cd sudoku-app
+
+Project link: https://vjtcodes.github.io/sudoku-app/
